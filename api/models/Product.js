@@ -5,8 +5,8 @@ const ProductSchema = new mongoose.Schema({
   price: { type: Number, required: true },
   image: {
     type: String,
-    // required: true,
-    default: "https://placehold.co/600x400/000000/FFFFFF/png",
+    required: true,
+    // default: "https://placehold.co/600x400/000000/FFFFFF/png",
   },
 });
 
